@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>&nbsp;
 
                 <div className="legal">
-                    <p>&copy; 2024 <span><b>Grovix Lab</b></span>. All rights reserved.</p>
+                    <p>&copy; 2024 <span><b>Ovita Lab</b></span>. All rights reserved.</p>
                 </div>
             </footer>
         </>
