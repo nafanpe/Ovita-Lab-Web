@@ -36,7 +36,7 @@
  /* Responsive adjustments */
  @media (max-width: 600px) {
      .notfound-container {
-         padding: 10px;
+         padding: 25px;
      }
 
      .notfound-title {
@@ -44,6 +44,6 @@
      }
 
      .notfound-message {
-         font-size: 0.9rem;
+         font-size: 1.0rem;
      }
  }
