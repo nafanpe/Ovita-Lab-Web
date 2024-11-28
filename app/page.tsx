@@ -8,13 +8,16 @@ export const metadata = {
   openGraph: {
     images: ['/img/opengraph/image.png'],
   }
-}; 
+};
 
 export default function Custom404() {
   return (
     <>
       <Header />
-      <div className="notfound-container">
+      <div className="maintenance-container">
+        <img src="/img/icons/graphics/maintenance.png" alt="Maintenance Image" className="maintenance-image" />
+        <h1 className="maintenance-title">We Are Undergoing Maintenance</h1>
+        <p className="maintenance-message">Our website is currently being updated. Please check back soon!</p>
       </div>
     </>
   )
