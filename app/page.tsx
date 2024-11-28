@@ -14,10 +14,10 @@ export default function Custom404() {
   return (
     <>
       <Header />
-      <div className="maintenance-container">
-        <img src="/img/icons/graphics/maintenance.png" alt="Maintenance Image" className="maintenance-image" />
-        <h1 className="maintenance-title">We Are Undergoing Maintenance</h1>
-        <p className="maintenance-message">Our website is currently being updated. Please check back soon!</p>
+      <div className="notfound-container">
+      <img src="/img/icons/graphics/error.png" alt="Not Found Image" className="notfound-image" />
+        <h1 className="notfound-title">We Are Undergoing Maintenance</h1>
+        <p className="notfound-message">Our website is currently being updated. Please check back soon!</p>
       </div>
     </>
   )
