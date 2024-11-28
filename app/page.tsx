@@ -3,8 +3,8 @@ import Header from '@/components/stable_header';
 
 
 export const metadata = {
-  title: "Ovita Lab: Pioneering Robotics & AI Innovations for a Smarter Future",
-  description: "Ovita Lab is a robotics, artificial intelligence, and software company delivering innovative solutions to drive industry transformation and community empowerment.",
+  title: "Innovating AI, Robotics, and Software Solutions for a Smarter Tomorrow",
+  description: "Ovita Lab is a startup dedicated to developing artificial intelligence, robotics, and software solutions to address real-world challenges.",
   openGraph: {
     images: ['/opengraph/image.jpg'],
   }
