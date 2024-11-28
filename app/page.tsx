@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     images: ['/opengraph/image.jpg'],
   }
-};
+}; 
 
 export default function Custom404() {
   return (
