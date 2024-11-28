@@ -11,14 +11,14 @@ export const metadata = {
 };
 
 export default function Custom404() {
-    return (
-        <>
-            <Header />
-            <div className="notfound-container">
-                <img src="/img/icons/graphics/error.png" alt="Not Found Image" className="notfound-image" />
-                <h1 className="notfound-title">404 - Not Found</h1>
-                <p className="notfound-message">The page you are looking for doesn't exist or an error occurred.</p>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <div className="notfound-container">
+        <img src="/img/icons/graphics/error.png" alt="Not Found Image" className="notfound-image" />
+        <h1 className="notfound-title">404 - Not Found</h1>
+        <p className="notfound-message">The page you are looking for doesn't exist or an error occurred.</p>
+      </div>
+    </>
+  )
 }

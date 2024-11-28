@@ -20,13 +20,13 @@ function handleScroll() {
     if (window.scrollY > 20) {
         header.classList.add("scrolled");
         headerDesk.classList.add("scrolled");
-        logoDesk.src = '/img/logo/grovix-lab.png';
-        logoMobi.src = '/img/logo/grovix-lab.png';
+        logoDesk.src = '/img/logo/logo-text.png';
+        logoMobi.src = '/img/logo/logo-text.png';
     } else {
         header.classList.remove("scrolled");
         headerDesk.classList.remove("scrolled");
-        logoDesk.src = '/img/logo/logo-white.png';
-        logoMobi.src = '/img/logo/logo-white.png';
+        logoDesk.src = '/img/logo/logo-text.png';
+        logoMobi.src = '/img/logo/logo-text.png';
     }
 }
 
