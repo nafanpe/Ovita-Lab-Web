@@ -26,9 +26,9 @@ const Footer = () => {
                         </ul>
                     </li> */}
 
-                    <li class="nav__item nav__item--extra">
-                        <h2 class="nav__title"><b>Links</b></h2>
-                        <ul class="nav__ul nav__ul--extra">
+                    <li className="nav__item nav__item--extra">
+                        <h2 className="nav__title"><b>Links</b></h2>
+                        <ul className="nav__ul nav__ul--extra">
                             <li><a href="/">Home</a></li>
                             <li><a href="/reasearche">Researche</a></li>
                             <li><a href="/products">Products</a></li>
