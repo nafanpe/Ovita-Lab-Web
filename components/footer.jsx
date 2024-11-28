@@ -9,7 +9,7 @@ const Footer = () => {
                     <img className="footer__logo" src="/img/logo/logo.png" alt="Ovita Lab Logo" /><br /><br />
                     <div className="address">
                         Kochi, Cochin Ernakulam, Dt-Kerala State Pin - 682011.<br /><br />
-                        <a className="footer__btn" href="mailto:support@grovixlab.com">Email Us</a>
+                        <a className="footer__btn" href="mailto:hello@ovitalab.com">Email Us</a>
                     </div>
                 </div>
 
