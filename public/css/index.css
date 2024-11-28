@@ -1,4 +1,4 @@
-.bento {
+/* .bento {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -78,4 +78,85 @@
             "aside4 aside4 aside4"
             "aside5 aside5 aside5";
     }
+} */
+
+h3 {
+    font-family: "Ahrefs";
+    color: #2F3039;
+}
+
+p {
+    margin-top: 6px;
+    font-family: "Ahrefs";
+    color: #7A7A7C;
+}
+
+.container {
+    padding: 4vw;
+    margin-top: 60px;
+}
+
+.bento-box {
+    display: grid;
+    grid-template-areas: "one three three four"
+        "one three three four"
+        "one three three five"
+        "two three three five";
+    gap: 2vmax;
+}
+
+.bento-child {
+    padding: 2vmax;
+    background-color: #F7F8FB;
+    border: 1px solid #E1E3E9;
+    border-radius: 8px;
+}
+
+.bento-child.one {
+    grid-area: one;
+}
+
+.bento-child.two {
+    grid-area: two;
+}
+
+.bento-child.three {
+    grid-area: three;
+}
+
+.bento-child.four {
+    grid-area: four;
+}
+
+.bento-child.five {
+    grid-area: five;
+}
+
+@media only screen and (max-width: 800px) {
+    .bento-box {
+        grid-template-areas: "one three"
+            "one three"
+            "one three"
+            "two three"
+            "four five";
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .bento-box {
+        grid-template-areas: "one one"
+            "two two"
+            "three three"
+            "four four"
+            "five five";
+    }
+}
+
+.img-container img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.bento-child.one {
+    padding-top: 0px;
 }
