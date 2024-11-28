@@ -6,14 +6,11 @@ const Footer = () => {
         <>
             <footer className="footer">
                 <div className="footer__addr">
-                    <img className="footer__logo" src="/img/logo/logo.png" alt="" />
-
-                    <h2></h2>
-
-                    <address>
+                    <img className="footer__logo" src="/img/logo/logo.png" alt="Ovita Lab Logo" /><br /><br />
+                    <div className="address">
                         Kochi, Cochin Ernakulam, Dt-Kerala State Pin - 682011.<br />
                         <a className="footer__btn" href="mailto:support@grovixlab.com">Email Us</a>
-                    </address>
+                    </div>
                 </div>
 
                 <ul className="footer__nav">
