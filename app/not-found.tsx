@@ -4,10 +4,7 @@ import Header from '@/components/stable_header';
 
 export const metadata = {
     title: "404 Not Found",
-    description: "Discover Cinecast, the leading AI content generation platform that simplifies paragraph creation, text summarization, and description generation. Enhance your writing efficiency and produce high-quality content with ease. Join us today and transform your creative process!",
-    openGraph: {
-        images: ['/opengraph/image.jpg'],
-    }
+    description: "Discover Cinecast, the leading AI content generation platform that simplifies paragraph creation, text summarization, and description generation. Enhance your writing efficiency and produce high-quality content with ease. Join us today and transform your creative process!"
 };
 
 export default function Custom404() {
