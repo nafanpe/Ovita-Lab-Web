@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="header-container header-desktop">
                     <div className="header-left">
                         <Link href="/">
-                            <img id="logo-desk" src="/img/logo/logo-text.png" alt="Ovita Lab. Logo" />
+                            <img id="logo-desk" src="/img/logo/logo.png" alt="Ovita Lab. Logo" />
                         </Link>
                     </div>
                     <div className="header-center">
@@ -40,7 +40,7 @@ const Header = () => {
             <header className="header-container header-mobile">
                 <div className="header-left">
                     <Link href="/">
-                        <img id="logo-mobi" src="/img/logo/logo-text.png" alt="Ovita Lab. Logo" />
+                        <img id="logo-mobi" src="/img/logo/logo.png" alt="Ovita Lab. Logo" />
                     </Link>
                 </div>
                 <div className="header-right">
