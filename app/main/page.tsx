@@ -10,7 +10,7 @@ export const metadata = {
     }
 };
 
-export default function Custom404() {
+export default function Home() {
     return (
         <>
             <Header />
