@@ -92,12 +92,17 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 4vw;
     margin-top: 60px;
+    max-width: 1220px;
 }
 
 .bento-box {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-areas: "one three three four"
         "one three three four"
         "one three three five"

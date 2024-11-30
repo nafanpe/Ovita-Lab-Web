@@ -1,6 +1,6 @@
 import '@/public/css/index.css';
 import Header from '@/components/stable_header';
-
+import ImageSlider from '@/components/imageSlider'
 
 export const metadata = {
     title: "Innovating AI, Robotics, and Software Solutions for a Smarter Tomorrow",
@@ -78,6 +78,7 @@ export default function Custom404() {
                             SAML assertions.</p>
                     </div>
                 </div>
+                <ImageSlider/>
             </div>
         </>
     )
