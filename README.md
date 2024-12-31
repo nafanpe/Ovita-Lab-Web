@@ -6,7 +6,7 @@ Clean and minimalist layout
 Optimized for fast loading
 
 Technologies Used:
-HTML5, CSS3, JavaScript
+HTML5, CSS3
 Framework: React(Used by me) , NextJS(used by another teammate)
 
 This repository serves as a portfolio to showcase my web design skills. The web page were designed during my time at Ovita Lab. I contributed as a web designer, focusing on creating engaging and functional user interfaces. The company have ceased operations. The content here is shared solely for showcasing my web design skills.
